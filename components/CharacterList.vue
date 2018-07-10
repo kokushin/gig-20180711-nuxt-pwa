@@ -20,25 +20,25 @@ export default {
           id: 1,
           name: 'もぐお',
           type: 'ノーマルタイプ',
-          img_src: '/img/01.png'
+          img_src: '/gig-20180711-nuxt-pwa/img/01.png'
         },
         {
           id: 2,
           name: '鬼もぐお',
           type: 'あくタイプ',
-          img_src: '/img/02.png'
+          img_src: '/gig-20180711-nuxt-pwa/img/02.png'
         },
         {
           id: 3,
           name: '天使もぐお',
           type: 'ひこうタイプ',
-          img_src: '/img/03.png'
+          img_src: '/gig-20180711-nuxt-pwa/img/03.png'
         },
         {
           id: 4,
           name: '究極完全体もぐお',
           type: 'かみタイプ',
-          img_src: '/img/04.png'
+          img_src: '/gig-20180711-nuxt-pwa/img/04.png'
         }
       ]
     }
