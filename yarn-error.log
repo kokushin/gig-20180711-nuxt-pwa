@@ -24,7 +24,7 @@ npm manifest:
       "dev": "nuxt",
       "build": "nuxt build",
       "start": "nuxt start",
-      "generate": "nuxt generate && mkdir -p docs && rm -f docs/* && cp dist/* docs",
+      "generate": "nuxt generate && mkdir -p docs && rm -f docs/* && cp -a dist/* docs",
       "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
       "precommit": "npm run lint"
     },
@@ -6486,7 +6486,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c nuxt generate && mkdir -p docs && rm -f docs/* && cp dist/* docs
+  Arguments: -c nuxt generate && mkdir -p docs && rm -f docs/* && cp -a dist/* docs
   Directory: /Users/kokushing/Documents/GitHub/gig-20180711-nuxt-pwa
   Output:
   
