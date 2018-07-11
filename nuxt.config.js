@@ -35,9 +35,6 @@ module.exports = {
       }
     }
   },
-  router: {
-    base: '/gig-20180711-nuxt-pwa/'
-  },
   modules: [
     '@nuxtjs/pwa'
   ],
